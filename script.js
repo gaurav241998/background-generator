@@ -1,3 +1,5 @@
+var _ = require('lodash');
+console.log(_);
 var css = document.querySelector("h3");
 var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
@@ -16,4 +18,3 @@ function AddBackgroundColor()
 color1.addEventListener("input",AddBackgroundColor);
 color2.addEventListener("input",AddBackgroundColor);
 
-AddBackgroundColor();
